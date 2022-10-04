@@ -6,6 +6,7 @@ pipeline {
 		echo "Hello to Jenkins Environment"
 		sh 'echo shell message'
 		echo "echo without shell"
+		sh 'python hello.py'
 	     }
         }
   }
